@@ -28,8 +28,9 @@ import rwamps from "./company/rwamps.png";
 
 // import carrent from "./carrent.png";
 import kavali from "./kavali.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+// import jobit from "./jobit.png";
+import smartprice from "./smartprice.png";
+// import tripguide from "./tripguide.png";
 
 export {
   logo,
@@ -59,6 +60,7 @@ export {
   rwamps,
   // carrent,
   kavali,
-  jobit,
-  tripguide,
+  // jobit,
+  smartprice,
+  // tripguide,
 };

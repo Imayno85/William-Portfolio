@@ -15,12 +15,13 @@ import {
   git,
   // figma,
   // docker,
+  smartprice,
   edmark,
   rwamps,
   // carrent,
   kavali,
-  jobit,
-  tripguide,
+  // jobit,
+  // tripguide,
   threejs,
 } from "../assets";
 
@@ -119,7 +120,7 @@ const experiences = [
     company_name: "Rwamps Youth Farmers Group",
     icon: rwamps,
     iconBg: "#383E56",
-    date: "October 2022 - Present",
+    date: "Oct. 2022 - Present",
     points: [
       "Design, code, test, and maintain software applications to meet organizational needs.",
       "Collaborate with cross-functional teams to analyze requirements and develop efficient solutions.",
@@ -167,14 +168,14 @@ const testimonials = [
   //   company: "DEF Corp",
   //   image: "https://randomuser.me/api/portraits/men/5.jpg",
   // },
-  // {
-  //   testimonial:
-  //     "After Wills optimized our website, our traffic increased by 50%. We can't thank them enough!",
-  //   name: "Lisa Wang",
-  //   designation: "CTO",
-  //   company: "456 Enterprises",
-  //   image: "https://randomuser.me/api/portraits/women/6.jpg",
-  // },
+  {
+    testimonial:
+      "After Wills optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    name: "Lisa Wang",
+    designation: "CTO",
+    company: "456 Enterprises",
+    image: "https://randomuser.me/api/portraits/women/6.jpg",
+  },
 ];
 
 const projects = [
@@ -184,15 +185,15 @@ const projects = [
       "Kavali Capital Limited offers a range of exceptional products and services, providing quality, value and convenience. From consumer electronics, phones and tablets to financial services, shipping, repairs and real estate solutions, experience satisfaction redefined.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "html/javascript",
+        name: "JavaScript",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Tailwind",
         color: "pink-text-gradient",
       },
     ],
@@ -200,47 +201,47 @@ const projects = [
     source_code_link: "https://github.com/Imayno85/kavali-capital.git",
   },
   {
-    name: "Job IT",
+    name: "Smart Price (Still in Development)",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Smart Price simplifies price tracking, empowering you to effortlessly monitor product prices and save significantly while shopping online. Make informed purchase decisions and maximize savings with our intuitive tool. Stay ahead of the game with Smart Price, your smart shopping companion",
     tags: [
       {
-        name: "react",
+        name: "NextJs",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "MongoDb",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: smartprice,
+    source_code_link: "https://github.com/Imayno85/smartprice.git",
   },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-  },
+  // {
+  //   name: "Trip Guide",
+  //   description:
+  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+  //   tags: [
+  //     {
+  //       name: "nextjs",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "supabase",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: tripguide,
+  //   source_code_link: "https://github.com/",
+  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
