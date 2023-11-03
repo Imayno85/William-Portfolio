@@ -17,7 +17,8 @@ import {
   // docker,
   edmark,
   rwamps,
-  carrent,
+  // carrent,
+  kavali,
   jobit,
   tripguide,
   threejs,
@@ -152,15 +153,15 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "It was a pleasure working with William on our website development. He was prompt, offered suggestions and we are very happy with the results. We'd highly recommend him to anyone that's looking for the same services.",
+    name: "Yusuf Sserunkuma",
+    designation: "Founder & Managing Director",
+    company: "Kavali Capital",
+    image: "https://www.kavalicapital.com/assets/people01-4cd2e767.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "I've never met a web developer who truly cares about their clients' success like Wills does.",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
@@ -168,7 +169,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "After Wills optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
@@ -178,16 +179,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Kavali Capital",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Kavali Capital Limited offers a range of exceptional products and services, providing quality, value and convenience. From consumer electronics, phones and tablets to financial services, shipping, repairs and real estate solutions, experience satisfaction redefined.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "html/javascript",
         color: "green-text-gradient",
       },
       {
@@ -195,8 +196,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: kavali,
+    source_code_link: "https://github.com/Imayno85/kavali-capital.git",
   },
   {
     name: "Job IT",
